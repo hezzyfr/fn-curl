@@ -16,8 +16,6 @@
 
 `fn-curl` is a dynamic-link library (DLL) designed to redirect the Fortnite launcher to a custom hybrid server backend. This allows you to customize the behavior of the launcher and potentially integrate additional features into the Fortnite experience.
 
-![Screenshot](screenshot.png) <!-- If you have relevant screenshots, include them to provide visual context -->
-
 ## Features
 
 - Redirect the Fortnite launcher to a custom hybrid server backend.
@@ -30,7 +28,7 @@ To use `fn-curl`, follow these steps:
 
 1. **Download the DLL:** You can download the latest release of the DLL from the [Releases](https://github.com/yourusername/fn-curl/releases) section of this repository.
 
-2. **Place the DLL:** Once downloaded, place the `fn-curl.dll` file in the same directory as the Fortnite launcher executable.
+2. **Edit the DLL:** Once downloaded, extract the `fn-curl-master.rar` file in the same directory as the Fortnite launcher executable.
 
 3. **Configuration (if needed):** If you need to customize the server backend URL or any other settings, refer to the [Configuration](#configuration) section.
 
