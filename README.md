@@ -1,6 +1,6 @@
 # fn-curl: Fortnite Launcher Redirect DLL
 
-![Project Logo](logo.png) <!-- If you have a logo, place it in the repository and link it here -->
+![Project Logo](Logo.png) <!-- If you have a logo, place it in the repository and link it here -->
 
 ## Table of Contents
 
