@@ -44,8 +44,6 @@ You can configure `fn-curl` by modifying the `curl.h` file. The following option
 - Replace `http://127.0.0.1` with the URL of your hybrid server backend.
 
 Example `curl.h`:
-
-```curl.h
 http://127.0.0.1 = https://your-fn-hybrid-server-backend.com
 
 ## Finish
