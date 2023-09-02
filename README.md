@@ -44,7 +44,8 @@ You can configure `fn-curl` by modifying the `curl.h` file. The following option
 - Replace `http://127.0.0.1` with the URL of your hybrid server backend.
 
 Example `curl.h`:
-http://127.0.0.1 = https://your-fn-hybrid-server-backend.com
+
+```http://127.0.0.1 = https://your-fn-hybrid-server-backend.com```
 
 ## Finish
 The final step is to press `Shift + B` in order to compile the DLL. Once the DLL has been successfully built, locate the directory where it was generated and open it using a file explorer.
