@@ -28,9 +28,9 @@ To use `fn-curl`, follow these steps:
 
 1. **Download the DLL:** You can download the latest release of the DLL from the [Releases](https://github.com/yourusername/fn-curl/releases) section of this repository.
 
-2. **Edit the DLL:** Once downloaded, extract the `fn-curl-master.rar` file in the same directory as the Fortnite launcher executable.
+2. **Edit the DLL:** Once downloaded, extract the `fn-curl-master.rar` file in the file expolorer and open the `.sln` file.
 
-3. **Configuration (if needed):** If you need to customize the server backend URL or any other settings, refer to the [Configuration](#configuration) section.
+3. **Configuration (if needed):** If you need to customize the redirect backend URL or any other settings, refer to the [Configuration](#configuration) section.
 
 ## Usage
 
@@ -38,12 +38,11 @@ After installing the DLL, the redirection will automatically take effect when la
 
 ## Configuration
 
-You can configure `fn-curl` by modifying the `config.ini` file. The following options are available:
+You can configure `fn-curl` by modifying the `curl.h` file. The following options are available:
 
-- `server_backend_url`: The URL of your hybrid server backend.
+- Replace `http://127.0.0.1` with the URL of your hybrid server backend.
 
-Example `config.ini`:
+Example `curl.h`:
 
-```ini
-[General]
-server_backend_url = https://your-fn-hybrid-server.com
+```curl.h
+http://127.0.0.1 = https://your-fn-hybrid-server-backend.com
