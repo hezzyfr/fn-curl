@@ -11,6 +11,7 @@
 - [Configuration](#configuration)
 - [Contributing](#contributing)
 - [License](#license)
+- [Finish](#Finish)
 
 ## Introduction
 
@@ -46,3 +47,6 @@ Example `curl.h`:
 
 ```curl.h
 http://127.0.0.1 = https://your-fn-hybrid-server-backend.com
+
+## Finish
+The final step is to press `Shift + B` in order to compile the DLL. Once the DLL has been successfully built, locate the directory where it was generated and open it using a file explorer.
